@@ -2,6 +2,7 @@
 <title>Historic Cities</title>
 </head><body>
     <h1>Historic Cities</h1>
+    <h2>this is a test</h2>
     {% for city in page_obj %}
     <b> <a href={% url 'cityname' city=city.city %}>{{city.city }}</a></b>
     This is {{ city.city }} also sometimes known as {{ city.otherName }} in 
